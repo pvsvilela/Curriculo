@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio & Currículo | Ana Desenvolvedora</title>
+    <title>Expresso da Ana | Portfólio & Currículo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,118 +13,151 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="sky" aria-hidden="true">
+      <span class="cloud cloud-1"></span>
+      <span class="cloud cloud-2"></span>
+      <span class="cloud cloud-3"></span>
+    </div>
     <header class="hero">
       <div class="hero__content">
-        <p class="tag">Olá, eu sou</p>
-        <h1>Ana Costa</h1>
+        <p class="tag">Expresso da Ana</p>
+        <h1>Suba a bordo do meu portfólio-currículo</h1>
         <p class="subtitle">
-          Engenheira de Software focada em experiências digitais acessíveis e
-          produtos que contam histórias.
+          Há 8 anos percorro trilhos digitais construindo produtos humanos,
+          acessíveis e com cara de viagem bem planejada. Aperte o cinto, role a
+          página e aproveite a paisagem.
         </p>
         <div class="hero__actions">
-          <a href="#timeline" class="btn primary">Ver trajetória</a>
-          <a href="#portfolio" class="btn ghost">Projetos em destaque</a>
+          <a href="#timeline" class="btn primary">Iniciar viagem</a>
+          <a href="#projetos" class="btn ghost">Ver vagões criativos</a>
         </div>
+        <p class="scroll-hint">role para acompanhar as estações ↓</p>
       </div>
-      <div class="hero__card">
-        <p>Disponível para projetos freelance</p>
-        <span class="status-dot"></span>
+      <div class="hero__card" aria-label="Bagagem técnica">
+        <h2>Bagagem de bordo</h2>
+        <ul>
+          <li>React, Next.js e design systems escaláveis</li>
+          <li>Node.js, GraphQL e APIs em tempo real</li>
+          <li>Mentoria de equipes e facilitação de discovery</li>
+        </ul>
+        <div class="ticket">
+          <span>Destino atual</span>
+          <strong>Aurora Tech • Staff Engineer</strong>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="grid" id="sobre">
+      <section class="grid" id="itinerario">
         <article>
-          <h2>Sobre mim</h2>
+          <h2>Itinerário rápido</h2>
           <p>
-            Sou desenvolvedora full-stack há 8 anos, liderando times que usam
-            tecnologia como ferramenta de impacto. Acredito em processos
-            colaborativos, prototipação rápida e soluções inclusivas.
-          </p>
-          <p>
-            Atualmente trabalho como Staff Engineer na Aurora Tech e mentoro
-            profissionais em transição de carreira.
+            Falo a língua do produto, gosto de times multidisciplinares e adoro
+            quando conseguimos transformar processos complexos em viagens
+            gostosas. Essas são as paradas favoritas da minha bagagem.
           </p>
         </article>
         <article>
-          <h2>Competências</h2>
           <ul class="tags">
-            <li>React & Next.js</li>
-            <li>Node.js</li>
-            <li>Design Systems</li>
-            <li>UX Research</li>
-            <li>Gestão Ágil</li>
-            <li>Storytelling</li>
+            <li>Arquiteturas modulares</li>
+            <li>Web performance</li>
+            <li>Storytelling de dados</li>
+            <li>Workshops de ideação</li>
+            <li>Design Ops</li>
+            <li>Acessibilidade nível AA</li>
           </ul>
         </article>
       </section>
 
-      <section id="timeline">
+      <section id="timeline" class="journey">
         <div class="section-header">
-          <p class="tag">Carreira</p>
-          <h2>Linha do tempo</h2>
+          <p class="tag">Linha férrea</p>
+          <h2>Estações da minha carreira</h2>
           <p>
-            Os marcos que moldaram minha visão sobre produtos digitais e equipes
-            multidisciplinares.
+            Imagine que cada ano é uma estação com trilha sonora própria. À
+            medida que você rola a tela, o trem acompanha e destaca o trecho da
+            jornada.
           </p>
         </div>
         <div class="timeline">
+          <div class="journey-track" aria-hidden="true">
+            <span class="train-icon" role="img" aria-label="Trem">🚂</span>
+          </div>
           <article class="timeline__item">
-            <span class="year">2024</span>
+            <div class="year-badge">
+              <span class="year">2024</span>
+              <p>Estação Aurora Tech</p>
+            </div>
             <div class="timeline__card">
               <h3>Staff Engineer • Aurora Tech</h3>
               <p>
-                Liderança técnica de iniciativas de acessibilidade em produtos
-                usados por 5M+ de pessoas. Estruturação de guilda de frontend e
-                mentoria de engenheiros plenos.
+                Liderei o vagão de acessibilidade aplicando testes contínuos,
+                criei guilda de frontend e conduzi expedições técnicas que
+                impactam 5 milhões de pessoas.
               </p>
+              <span class="badge">Painéis inclusivos</span>
             </div>
           </article>
           <article class="timeline__item">
-            <span class="year">2021</span>
+            <div class="year-badge">
+              <span class="year">2021</span>
+              <p>Estação Nova Bank</p>
+            </div>
             <div class="timeline__card">
               <h3>Product Engineer • Nova Bank</h3>
               <p>
-                Implantação de design system e arquitetura de micro frontends
-                para squads de onboarding. Redução de 35% no tempo de entrega.
+                Conectei vagões de onboarding com micro frontends, lancei design
+                system e reduzi em 35% o tempo de entrega entre squads.
               </p>
+              <span class="badge">Operação relâmpago</span>
             </div>
           </article>
           <article class="timeline__item">
-            <span class="year">2018</span>
+            <div class="year-badge">
+              <span class="year">2018</span>
+              <p>Estação Estúdio Horizonte</p>
+            </div>
             <div class="timeline__card">
               <h3>Full-stack • Estúdio Horizonte</h3>
               <p>
-                Desenvolvimento de experiências imersivas para festivais
-                culturais usando WebGL e APIs em tempo real.
+                Construí experiências imersivas com WebGL, instalações com IoT e
+                APIs em tempo real para festivais culturais pelo Brasil.
               </p>
+              <span class="badge">Arte + código</span>
             </div>
           </article>
           <article class="timeline__item">
-            <span class="year">2015</span>
+            <div class="year-badge">
+              <span class="year">2015</span>
+              <p>Estação Inovatech</p>
+            </div>
             <div class="timeline__card">
               <h3>Estágio • Inovatech</h3>
               <p>
-                Primeiro contato com desenvolvimento ágil e participação em
-                hackathons que despertaram minha paixão por produtos digitais.
+                Primeira volta nos trilhos ágeis, hackathons noturnos e muita
+                vontade de transformar ideias em produtos reais.
               </p>
+              <span class="badge">Bilhete de entrada</span>
             </div>
           </article>
         </div>
       </section>
 
-      <section id="portfolio">
+      <section id="projetos">
         <div class="section-header">
-          <p class="tag">Projetos</p>
-          <h2>Seleção recente</h2>
+          <p class="tag">Vagões criativos</p>
+          <h2>Projetos que levo com carinho</h2>
+          <p>
+            Alguns dos contêineres e cabines digitais que mais me orgulham.
+          </p>
         </div>
         <div class="cards">
           <article class="project">
             <div>
               <h3>Atlas Stories</h3>
               <p>
-                Plataforma narrativa interativa para museus, com trilhas guiadas
-                em áudio e integrações com dispositivos IoT.
+                Plataforma narrativa para museus com trilhas guiadas, mapas
+                sonoros e integração com dispositivos IoT.
               </p>
             </div>
             <span>2023</span>
@@ -133,8 +166,8 @@
             <div>
               <h3>Pulse Labs</h3>
               <p>
-                Dashboard de saúde digital com visualizações em tempo real e
-                recursos de teleatendimento.
+                Dashboard de saúde digital com alertas em tempo real e
+                teleatendimento integrado.
               </p>
             </div>
             <span>2022</span>
@@ -143,8 +176,8 @@
             <div>
               <h3>Origami</h3>
               <p>
-                Editor colaborativo focado em escritórios de advocacia, com IA
-                aplicada à revisão de documentos.
+                Editor colaborativo para escritórios jurídicos usando IA na
+                revisão de documentos.
               </p>
             </div>
             <span>2021</span>
@@ -155,11 +188,11 @@
 
     <footer>
       <div>
-        <h2>Vamos conversar?</h2>
+        <h2>Partiu próxima parada?</h2>
         <p>ana.costa@email.com • @anacosta.dev</p>
       </div>
       <button class="btn primary" id="btn-theme" aria-label="Alternar tema">
-        Modo escuro
+        Acender o trem
       </button>
     </footer>
     <script src="script.js"></script>
