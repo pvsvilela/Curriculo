@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio & Currículo | Ana Desenvolvedora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="tag">Olá, eu sou</p>
+        <h1>Ana Costa</h1>
+        <p class="subtitle">
+          Engenheira de Software focada em experiências digitais acessíveis e
+          produtos que contam histórias.
+        </p>
+        <div class="hero__actions">
+          <a href="#timeline" class="btn primary">Ver trajetória</a>
+          <a href="#portfolio" class="btn ghost">Projetos em destaque</a>
+        </div>
+      </div>
+      <div class="hero__card">
+        <p>Disponível para projetos freelance</p>
+        <span class="status-dot"></span>
+      </div>
+    </header>
+
+    <main>
+      <section class="grid" id="sobre">
+        <article>
+          <h2>Sobre mim</h2>
+          <p>
+            Sou desenvolvedora full-stack há 8 anos, liderando times que usam
+            tecnologia como ferramenta de impacto. Acredito em processos
+            colaborativos, prototipação rápida e soluções inclusivas.
+          </p>
+          <p>
+            Atualmente trabalho como Staff Engineer na Aurora Tech e mentoro
+            profissionais em transição de carreira.
+          </p>
+        </article>
+        <article>
+          <h2>Competências</h2>
+          <ul class="tags">
+            <li>React & Next.js</li>
+            <li>Node.js</li>
+            <li>Design Systems</li>
+            <li>UX Research</li>
+            <li>Gestão Ágil</li>
+            <li>Storytelling</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="timeline">
+        <div class="section-header">
+          <p class="tag">Carreira</p>
+          <h2>Linha do tempo</h2>
+          <p>
+            Os marcos que moldaram minha visão sobre produtos digitais e equipes
+            multidisciplinares.
+          </p>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item">
+            <span class="year">2024</span>
+            <div class="timeline__card">
+              <h3>Staff Engineer • Aurora Tech</h3>
+              <p>
+                Liderança técnica de iniciativas de acessibilidade em produtos
+                usados por 5M+ de pessoas. Estruturação de guilda de frontend e
+                mentoria de engenheiros plenos.
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <span class="year">2021</span>
+            <div class="timeline__card">
+              <h3>Product Engineer • Nova Bank</h3>
+              <p>
+                Implantação de design system e arquitetura de micro frontends
+                para squads de onboarding. Redução de 35% no tempo de entrega.
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <span class="year">2018</span>
+            <div class="timeline__card">
+              <h3>Full-stack • Estúdio Horizonte</h3>
+              <p>
+                Desenvolvimento de experiências imersivas para festivais
+                culturais usando WebGL e APIs em tempo real.
+              </p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <span class="year">2015</span>
+            <div class="timeline__card">
+              <h3>Estágio • Inovatech</h3>
+              <p>
+                Primeiro contato com desenvolvimento ágil e participação em
+                hackathons que despertaram minha paixão por produtos digitais.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="section-header">
+          <p class="tag">Projetos</p>
+          <h2>Seleção recente</h2>
+        </div>
+        <div class="cards">
+          <article class="project">
+            <div>
+              <h3>Atlas Stories</h3>
+              <p>
+                Plataforma narrativa interativa para museus, com trilhas guiadas
+                em áudio e integrações com dispositivos IoT.
+              </p>
+            </div>
+            <span>2023</span>
+          </article>
+          <article class="project">
+            <div>
+              <h3>Pulse Labs</h3>
+              <p>
+                Dashboard de saúde digital com visualizações em tempo real e
+                recursos de teleatendimento.
+              </p>
+            </div>
+            <span>2022</span>
+          </article>
+          <article class="project">
+            <div>
+              <h3>Origami</h3>
+              <p>
+                Editor colaborativo focado em escritórios de advocacia, com IA
+                aplicada à revisão de documentos.
+              </p>
+            </div>
+            <span>2021</span>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <h2>Vamos conversar?</h2>
+        <p>ana.costa@email.com • @anacosta.dev</p>
+      </div>
+      <button class="btn primary" id="btn-theme" aria-label="Alternar tema">
+        Modo escuro
+      </button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
